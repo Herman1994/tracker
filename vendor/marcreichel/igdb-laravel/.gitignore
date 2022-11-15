@@ -1,0 +1,8 @@
+.idea/
+vendor/
+build/
+report/
+composer.lock
+.phpunit.result.cache
+cghooks.lock
+

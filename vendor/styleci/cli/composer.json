@@ -1,0 +1,28 @@
+{
+    "name": "styleci/cli",
+    "description": "The CLI tool for StyleCI",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "StyleCI",
+            "email": "support@styleci.io"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "ext-json": "*",
+        "ext-zlib": "*"
+    },
+    "suggest": {
+        "ext-curl": "Required for high performance HTTP transport"
+    },
+    "bin": [
+        "bin/styleci"
+    ],
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "bin-dir": "bin"
+    }
+}

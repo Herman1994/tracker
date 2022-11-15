@@ -1,0 +1,32 @@
+{
+	"authHost": "https://tracker.helheim.cz",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "cc5dcad2a8444e13",
+			"key": "2869b0ca438e3753b0f7581713a5efc2"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": null,
+	"port": "8443",
+	"protocol": "https",
+	"socketio": {},
+	"sslCertPath": "/etc/letsencrypt/live/tracker.helheim.cz/cert.pem",
+	"sslKeyPath": "/etc/letsencrypt/live/tracker.helheim.cz/privkey.pem",
+	"sslCertChainPath": "/etc/letsencrypt/live/tracker.helheim.cz/fullchain.pem",
+	"sslPassphrase": "",
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}

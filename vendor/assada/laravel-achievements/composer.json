@@ -1,0 +1,38 @@
+{
+    "name": "assada/laravel-achievements",
+    "description": "Achievements for Laravel 6+",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Simonetti",
+            "email": "simonettigo@gmail.com"
+        },
+        {
+            "name": "Alex Ilyenko",
+            "email": "assada.ua@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/Migrations"
+        ],
+        "psr-4": {
+            "Assada\\Achievements\\": "src/",
+            "Assada\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Assada\\Achievements\\AchievementsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^3 || ^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "laravel/laravel": "^6.0|^7.0|^8.0|^9.0"
+    }
+}
